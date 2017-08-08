@@ -1,24 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Fred Lintz</title>
+    <meta charset=“UTF-8">
+
+        <!--Responsive Mobile Meta Tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fred Lintz</title>
+
+    <!-- <link rel="icon" type="image/jpg" href=“favicon”> -->
+    
+        <!--Bootstrap links, CSS, JQUERY, JavaScript-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/fredlintz.js"></script>
 </head>
 <body>
 
-<h1>Hello World!</h1>
+	<div class="jumbotron text-center">
+	  <div class="container">
+	  	<h1>Fred Lintz</h1>
+	  	<p>Jack of all trades, master of none...</p>
+	  </div>
+	</div>
 
-<p>Here is a basic list of links to some of my projects</p>
-	<ul>
-		<li><a href="https://fredlintz5.github.io/hangman-game/" target="_blank">Hangman</a></li>
-		<li><a href="https://fredlintz5.github.io/rochambeau/" target="_blank">Rochambeau</a></li>
-		<li><a href="https://fredlintz5.github.io/calculator/" target="_blank">Calculator</a></li>
-		<li><a href="https://fredlintz5.github.io/bootstrap-portfolio/" target="_blank">BootStrap Portfolio</a></li>
-		<li><a href="https://fredlintz5.github.io/bicycle_rentals/" target="_blank">Bicycle Rentals</a></li>
-		<li><a href="https://fredlintz5.github.io/htmlCssPractice/hover/" target="_blank">CSS Layout/Hover Fun</a></li>
-		<li><a href="https://fredlintz5.github.io/htmlCssPractice/hamburgerNav/" target="_blank">Jquery Responsive Navbar</a></li>
-		<li><a href="https://fredlintz5.github.io/htmlCssPractice/qwerty/" target="_blank">Jquery Qwerty Keyboard</a></li>
-		<li><a href="https://fredlintz5.github.io/week-4-game/" target="_blank">Star Wars RPG</a></li>
-	</ul>
+	<nav class="container padding-top">
+		<ul class="nav nav-pills nav-justified padding-zero">
+		  <li class="nav-item">
+		    <a class="nav-link hover-light" href="#aboutlink">Who I Am</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link hover-light" href="#portfolio">Portfolio</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link hover-light" href="#resumeContact">Resume</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link hover-light" href="#resumeContact">Contact</a>
+		  </li>
+		</ul>
+	</nav>
+
+	<section class="container height-vh margin-top" id="aboutlink">
+		<div class="row">
+			<div class="col-sm-6 row-height background-grey about">
+			</div>
+			<div class="col-sm-6 row-height background-grey about">
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid height-vh margin-top" id="portfolio">
+		<div class="row">
+			<div class="col-sm-12 row-height">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+						<iframe src="https://fredlintz5.github.io/week-4-game/" width="100%" height="600" frameborder="0"></iframe>				      
+						<div class="carousel-caption">
+				        <div class="carousel-caption">
+						    <h3>Star Wars RPG</h3>
+						    <p>Choose your player, save the Galaxy.</p>
+						</div>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <iframe src="https://fredlintz5.github.io/rochambeau/" width="100%" height="600" frameborder="0"></iframe>
+				      <div class="carousel-caption">
+				        <div class="carousel-caption">
+						    <h3>Rochambeau</h3>
+						    <p>One, two, three SHOOT...</p>
+						</div>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <iframe src="https://fredlintz5.github.io/hangman-game/" width="100%" height="600" frameborder="0"></iframe>
+				      <div class="carousel-caption">
+				        <div class="carousel-caption">
+						    <h3>Hangman</h3>
+						    <p>Guess the letters correctly, or suffer the consequences.</p>
+						</div>
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section class="container height-vh margin-top" id="resumeContact">
+		<div class="row">
+			<div class="col-sm-6 row-height" id="resume"></div>
+			<div class="col-sm-6 row-height background-grey" id="contact"></div>
+		</div>
+	</section>
+
+	<footer class="container text-center margin-top">
+		<div class="row">
+			<div class="col-sm-4" id="social">
+				<p>Social</p>
+				<hr>
+				<div>
+					<a href="#"><img id="git" src="assets/images/github.png" alt="github" width="18%"></a>
+					<a href="#"><img id="link" src="assets/images/linkedin.png" alt="linked-in" width="20%"></a>
+				</div>	
+			</div>
+			<div class="col-sm-4" id="projectListOne"></div>
+			<div class="col-sm-4" id="projectListTwo"></div>
+		</div>
+		<div class="row text-center margin-top">
+			<div class="col-sm-12" id="copyright">&copy Copyright - Fred Lintz 2017</div>
+		</div>
+	</footer>
+
 
 </body>
 </html>

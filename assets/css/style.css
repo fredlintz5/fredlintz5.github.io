@@ -1,0 +1,154 @@
+body {
+	background: #333;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #009FAD;
+}
+
+hr {
+	margin-top: 0px;;
+	margin-bottom: 10px
+}
+
+footer {
+	height: auto;
+	padding: 15px 0 15px 0;
+	color: #009FAD;
+	background: #333;
+}
+
+footer a {
+	color: #F7F7F9;
+}
+
+footer a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #F7F7F9;
+}
+
+.hover-light:hover {
+	color: #333;
+}
+
+.jumbotron {
+	margin-bottom: 2px;
+    height: 71vh;
+    padding-top: 22vh;
+}
+
+.background-grey {
+	background: #F7F7F9;
+}
+
+.margin-top {
+	margin-top: 40px;
+}
+
+.padding-top {
+	padding-top: 5px;
+}
+
+.height-vh {
+	height: 98vh;
+	padding-top: 5%;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+.border {
+	border: 1px solid red;
+}
+
+.row-height {
+	height: 47vh;
+}
+
+.about {
+	background-image: url("../images/profile_pic.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#about h3 {
+	color: #009FAD;
+}
+
+#projectListOne div, p{
+	padding-left: 5px;
+}
+
+#projectListTwo div, p{
+	padding-left: 5px;
+}
+
+#projectListTwo {
+	padding-top: 40px;
+}
+
+#git {
+	width: 10%;
+}
+
+#link {
+	width: 11%;
+}
+
+#social div {
+	padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+#copyright {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #888;
+}
+
+
+@media screen and (min-width: 768px) {
+	footer .row div{
+		text-align: left;
+	}
+
+	.jumbotron {
+		height: 92vh;
+	    padding-top: 25vh;
+	}
+
+	.height-vh {
+		height: 98vh;
+		padding-top: 2%;
+	}
+
+	.row-height {
+		height: 600px;
+	}	
+
+	#git {
+		width: 18%;
+	}
+
+	#link {
+		width: 19%;
+	}
+
+	#projectListTwo {
+		padding-top: 0px;
+	}
+
+}
+
+
+
+
+
+
