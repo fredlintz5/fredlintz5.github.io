@@ -16,7 +16,8 @@ $(document).ready(function() {
 	 	"<div><a href='https://fredlintz5.github.io/htmlCssPractice/hover/' target='_blank'>CSS Layout/Hover Fun</a></div>",
 		"<div><a href='https://fredlintz5.github.io/htmlCssPractice/hamburgerNav/' target='_blank'>Jquery Responsive Navbar</a></div>",
 		"<div><a href='https://fredlintz5.github.io/htmlCssPractice/qwerty/' target='_blank'>Jquery Qwerty Keyboard</a></div>",
-		"<div><a href='https://fredlintz5.github.io/week-4-game/' target='_blank'>Star Wars RPG</a></div>"];
+		"<div><a href='https://fredlintz5.github.io/week-4-game/' target='_blank'>Star Wars RPG</a></div>",
+		"<div><a href='https://fredlintz5.github.io/triviaGame/' target='_blank'>Trivia Game</a></div>"];
 	 
 
 	function footerLI() {
