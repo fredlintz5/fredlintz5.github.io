@@ -36,6 +36,10 @@ footer a:visited {
 	color: #333;
 }
 
+.hiddenP {
+	display: none;
+}
+
 .jumbotron {
 	margin-bottom: 2px;
     height: 71vh;
@@ -68,17 +72,49 @@ footer a:visited {
 }
 
 .row-height {
-	height: 47vh;
+	height: 48vh;
 }
 
-.about {
+.row-heightHalf {
+	height: 24vh;	
+}
+
+#about h3 {
+	color: #009FAD;
+}
+
+#image1 {
 	background-image: url("../images/profile_pic.jpg");
 	background-size: cover;
 	background-position: center;
 }
 
-#about h3 {
-	color: #009FAD;
+#image2 {
+	background-image: url("../images/dogPark.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+#image3 {
+	background-image: url("../images/highlineCanal.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+#image4 {
+	background-image: url("../images/cofeve.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+#image5 {
+	background-image: url("../images/mountains.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+#img1p, #img2p, #img3p, #img4p, #img5p {
+	display: none;
 }
 
 #projectListOne div, p{
@@ -114,7 +150,6 @@ footer a:visited {
 	text-align: center;
 }
 
-
 @media screen and (min-width: 768px) {
 	footer .row div{
 		text-align: left;
@@ -133,6 +168,11 @@ footer a:visited {
 	.row-height {
 		height: 600px;
 	}	
+
+	.row-heightHalf {
+		height: 300px;	
+	}
+
 
 	#git {
 		width: 18%;

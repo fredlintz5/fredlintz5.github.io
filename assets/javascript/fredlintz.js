@@ -37,6 +37,40 @@ $(document).ready(function() {
 
 
 
+$("nav > ul > li > a").click(function() { 
+	console.log('clicked');
+	$('html,body').animate({
+        scrollTop: $("#aboutlink").offset().top},'slow');           
+});
+
+
+function imageHover(id, imgP) {
+	$(id).hover(function() {
+
+		$(id).css({
+			opacity: '0.6',
+		});
+		$(imgP).css({
+			display: 'inherit',
+			color: 'white'
+		});
+
+	}, function() {
+		$(id).css({
+			opacity: '1',
+		});
+		$(imgP).css({
+			display: 'none',
+		});
+	});
+}
+
+imageHover("#image1", "#img1p");
+imageHover("#image2", "#img2p");
+imageHover("#image3", "#img3p");
+imageHover("#image4", "#img4p");
+imageHover("#image5", "#img5p");
+
 
 
 
