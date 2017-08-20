@@ -52,7 +52,8 @@ function imageHover(id, imgP) {
 		});
 		$(imgP).css({
 			display: 'inherit',
-			color: 'white'
+			color: 'white',
+			opacity: '2',
 		});
 
 	}, function() {
