@@ -1,5 +1,4 @@
 body {
-	background: #333;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -41,9 +40,24 @@ footer a:visited {
 }
 
 .jumbotron {
+	background-image: url("../images/cofeve.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	margin-bottom: 2px;
-    height: 71vh;
-    padding-top: 22vh;
+	color: #FFF;
+    height: 77vh;
+    padding-top: 25vh;
+}
+
+.jumbotron h1 {
+	text-shadow: 1.2px 1.2px #333;
+	font-size: 70px;
+}
+
+.jumbotron p {
+	text-shadow: .6px .6px #333;
+	font-size: 20px;
 }
 
 .background-grey {
@@ -169,7 +183,17 @@ footer a:visited {
 
 	.jumbotron {
 		height: 92vh;
-	    padding-top: 25vh;
+	    padding-top: 35vh;
+	}
+
+	.jumbotron h1 {
+		text-shadow: 1.2px 1.2px #333;
+		font-size: 90px;
+	}
+
+	.jumbotron p {
+		text-shadow: .6px .6px #333;
+		font-size: 25px;
 	}
 
 	.height-vh {

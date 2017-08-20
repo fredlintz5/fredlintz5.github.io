@@ -40,7 +40,7 @@ $(document).ready(function() {
 $("nav > ul > li > a").click(function() { 
 	console.log('clicked');
 	$('html,body').animate({
-        scrollTop: $("#aboutlink").offset().top},'slow');           
+        scrollTop: $("#portfolio").offset().top},'slow');           
 });
 
 
