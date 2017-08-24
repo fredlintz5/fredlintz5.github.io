@@ -9,6 +9,7 @@ $(document).ready(function() {
 		"<div><a href='https://fredlintz5.github.io/calculator/' target='_blank'>Calculator</a></div>",
 		"<div><a href='https://fredlintz5.github.io/bootstrap-portfolio/' target='_blank'>BootStrap Portfolio</a></div>",
 		"<div><a href='https://fredlintz5.github.io/bicycle_rentals/' target='_blank'>Bicycle Rentals</a></div>",
+		"<div><a href='https://fredlintz5.github.io/trainScheduler/' target='_blank'>Train Scheduler</a></div>",
 		];
 	var projectListTwo = [
 		"<p>More Projects</p>",
