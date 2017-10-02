@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=“UTF-8">
-	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-    
-        <!--Responsive Mobile Meta Tag-->
+    <meta charset='utf-8'>
+    <meta name="description" content="Personal Site for Fred Lintz - Web Developer">
+    <meta name="author" content="Fred Lintz">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Fred Lintz</title>
 
-    
         <!--Bootstrap links, CSS, JQUERY, JavaScript-->
-
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -29,22 +27,198 @@
 	  </div>
 	</div>
 
-	<nav class="container padding-top">
+	<nav class="container padding5">
 		<ul class="nav nav-pills nav-justified padding-zero">
-		  <!-- <li class="nav-item">
+		  <li class="nav-item">
 		    <a class="nav-link hover-light" href="#aboutlink">Who I Am</a>
-		  </li> -->
+		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link hover-light" href="#portfolio">Portfolio</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link hover-light" href="#resumeContact">Resume</a>
+		    <a id="resumeLink" class="nav-link hover-light" href="#resumeContact">Resume</a>
 		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link hover-light" href="#resumeContact">Contact</a>
 		  </li>
 		</ul>
 	</nav>
+
+	<section class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeLabel" aria-hidden="true">
+      	<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		      			<span aria-hidden="true">&times;</span>
+		    		</button>
+				</div>
+				<div class="modal-body">
+					<div class="row text-center">
+						<div class="col-sm-12">
+							<div id="profile_image">
+								<img src="assets/images/githubProfileImg.jpg" alt="Profile Pic" height='200'>
+							</div>
+							<div>
+								<h3 class="mb-0">Fred Lintz</h3>
+								<p class="text-muted mb-0">Centennial, CO</p>
+							</div>
+							<div class="mtb-10">
+								<em>
+									Full Stack Web Developer with a passion for UI/UX. Educated in Business Management with strengths in HTML, CSS, Bootstrap, jQuery and JavaScript. 
+								</em>
+							</div>
+							<hr class="mtb-10">
+							<div>
+								<a href="https://github.com/fredlintz5" target="_blank">GitHub</a>
+								<a href="https://www.linkedin.com/in/fred-lintz-8a77a5113/" target="_blank">LinkedIn</a>
+								<a href="mailto:fred.lintz5@gmail.com">Email</a>
+								<a href="tel:352-514-1246">352.514.1246</a>
+							</div>
+							<hr class="mtb-10">
+						</div>	
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div>
+								<h4>EDUCATION</h4>
+							</div>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-education"></span>
+								</div>
+								<div class="col-xs-11">
+									<h5>University of Denver</h5>
+									<p><em>Full Stack Web Development</em></p>
+									<p>- An intensive 24-week long boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js.
+									</p>
+									<p class='text-muted'>June 2017 - January 2018</p>
+								</div>	
+							</div>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-education"></span>
+								</div>
+								<div class="col-xs-11">
+									<h5>Santa Fe College</h5>
+									<p><em>AA - Business Administration & Management</em></p>
+									<p class='text-muted'>August 2003 - May 2005</p>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-12">
+							<h4>APPLICATIONS</h4>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-folder-open"></span>
+								</div>
+								<div class="col-xs-11">
+									<h5>hailMinder</h5>
+									<p>- Web Application for alerting users of pending/active hailstorms in their specified locations</p>
+									<p>- Developed weather-alert functions, database, and user profile page</p>
+									<p>- Bootstrap, Firebase, jQuery, Javascript, emailJS, Open-Weather API</p>
+									<p><a href="https://github.com/fredlintz5/hailMinder" target="_blank">https://github.com/fredlintz5/hailMinder</a></p>
+								</div>	
+							</div>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-folder-open"></span>
+								</div>
+								<div class="col-xs-11">
+									<h5>Bicycle Rentals</h5>
+									<p>- Retail Rental Management Web Application</p>
+									<p>- Sole Developer</p>
+									<p>- Bootstrap, Firebase, jQuery, Javascript, Paypal API, Google Auto-complete API</p>
+									<p><a href="https://github.com/fredlintz5/bicycle_rentals" target="_blank">https://github.com/fredlintz5/bicycle_rentals</a></p>
+								</div>	
+							</div>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-folder-open"></span>
+								</div>
+								<div class="col-xs-11">
+									<h5>Node LIRI App</h5>
+									<p>- Command Line Node JS App for returning information from different API's</p>
+									<p>- Sole Developer</p>
+									<p>- Node JS, Inquirer, Twitter-API, Spotify-API</p>
+									<p><a href="https://github.com/fredlintz5/liri_node_app" target="_blank">https://github.com/fredlintz5/liri_node_app</a></p>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-12">
+							<h4>RELEVANT EXPERIENCE</h4>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-briefcase"></span>
+								</div>
+								<div class="col-xs-11">
+									<h5>Gator Cycle</h5>
+									<p>- WordPress Site</p>
+									<p>- Shared responsibilites with one other developer to design, implement, and maintain retail web-site</p>
+									<p><a href="https://www.gatorcycle.com/" target="_blank">https://www.gatorcycle.com/</a></p>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-12">
+							<h4>ADDITIONAL WORK EXPERIENCE</h4>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-briefcase"></span>
+								</div>
+								<div class="col-xs-11">
+									<p>Sales Associate at Elevation Cycles</p>
+									<p class='text-muted'>February 2017 - Current</p>
+								</div>	
+							</div>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-briefcase"></span>
+								</div>
+								<div class="col-xs-11">
+									<p>Commercial Outbound Sales Representative at Infinite Energy</p>
+									<p class='text-muted'>June 2016 - January 2017</p>
+									<p class="toggle" data-toggle="collapse" data-target="#iei">View Description</p>
+									<div id="iei" class="collapse">
+										<p>Outbound B2B phone sales, in charge of new customer acquisition.</p>
+										<p>- SalesForce</p>
+										<p>- Sharepoint</p>
+									</div>
+								</div>	
+							</div>
+							<div class="row">
+								<div class="col-xs-1 text-center text-muted">
+									<span class="glyphicon glyphicon-briefcase"></span>
+								</div>
+								<div class="col-xs-11">
+									<p>General Manager at Gator Cycle</p>
+									<p class='text-muted'>August 2012 - May 2016</p>
+									<p class="toggle" data-toggle="collapse" data-target="#gator">View Description</p>
+									<div id="gator" class="collapse">
+										<p>General Management of Retail Sales/Service Operations</p>
+										<p>- Human Resources</p>
+										<p>- Bookkeeping</p>
+										<p>- Sales Forecasting</p>
+										<p>- Marketing</p>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary disabled" data-dismiss="modal">Download PDF</button>
+				</div>
+			</div>
+ 		</div>
+    </section>
 
 	<section class="container-fluid height-vh hide" id="portfolio">
 		<div class="row">
@@ -113,7 +287,7 @@
 		</div>
 	</section> -->
 
-	<footer class="container-fluid text-center margin-top">
+	<footer class="container-fluid text-center">
 		<div class="row">
 			<div class="col-sm-4" id="social">
 				<p>Social</p>

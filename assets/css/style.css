@@ -1,14 +1,11 @@
+/*#EAEFF4*/
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
 
 a {
 	color: #009FAD;
-}
-
-hr {
-	margin-top: 0px;;
-	margin-bottom: 10px
 }
 
 footer {
@@ -29,6 +26,11 @@ footer a:hover {
 
 footer a:visited {
 	color: #F7F7F9;
+}
+
+footer hr {
+	margin-top: 0px;;
+	margin-bottom: 10px
 }
 
 .hover-light:hover {
@@ -64,12 +66,9 @@ footer a:visited {
 	background: #F7F7F9;
 }
 
-.margin-top {
-	margin-top: 40px;
-}
-
-.padding-top {
+.padding5 {
 	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .height-vh {
@@ -93,8 +92,60 @@ footer a:visited {
 	height: 24vh;	
 }
 
+.glyphicon-education {
+	font-size: 25px;
+}
+
+.glyphicon-folder-open {
+	font-size: 18px;
+}
+
+.glyphicon-briefcase {
+	font-size: 20px;
+}
+
+.mtb-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.toggle {
+	color: #009FAD;
+	cursor: pointer;
+}
+
 #about h3 {
 	color: #009FAD;
+}
+
+#profile_image img {
+	border-radius: 50%;
+	height: 130px;
+}
+
+#resumeModal a {
+	padding: 0px 7px 0px 7px;
+}
+
+#resumeModal h5 {
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+#resumeModal p {
+	margin-bottom: 5px;
+}
+
+#resumeModal .row {
+	margin-top: 5px;
 }
 
 #image1 {
