@@ -33,43 +33,58 @@ projectListTwo.forEach((element) => {
 
 
 
-$("nav > ul > li > a").click(function() { 
+$("#navWho").click(function() { 
 	$('html,body').animate({
-        scrollTop: $("#portfolio").offset().top},'slow');           
+        scrollTop: $("#who").offset().top},'slow');           
 });
 
-$('#resumeLink').click(() => {
+$('#navResume').click(() => {
 	$('#resumeModal').modal('toggle');
 });
 
 
-// function imageHover(id, imgP) {
-// 	$(id).hover(function() {
+$('#resumePhone').hover(() => {
+	$('#resumePhone').text('352-514-1246');
+}, () => {
+	$('#resumePhone').text('Phone');
+});
 
-// 		$(id).css({
-// 			opacity: '0.6',
-// 		});
-// 		$(imgP).css({
-// 			display: 'inherit',
-// 			color: 'white',
-// 			opacity: '2',
-// 		});
 
-// 	}, function() {
-// 		$(id).css({
-// 			opacity: '1',
-// 		});
-// 		$(imgP).css({
-// 			display: 'none',
-// 		});
-// 	});
-// }
+$('#resumeEmail').hover(() => {
+	$('#resumeEmail').text('fred.lintz5@gmail.com');
+}, () => {
+	$('#resumeEmail').text('Email');
+});
 
-// imageHover("#image1", "#img1p");
-// imageHover("#image2", "#img2p");
-// imageHover("#image3", "#img3p");
-// imageHover("#image4", "#img4p");
-// imageHover("#image5", "#img5p");
+
+function imageHover(id, imgP) {
+	$(id).hover(() => {
+
+		$(id).css({
+			opacity: '0.6',
+		});
+		// $(imgP).css({
+		// 	display: 'inherit',
+		// 	color: 'white',
+		// 	opacity: '1',
+		// 	'z-index': '2',
+		// });
+
+	}, function() {
+		$(id).css({
+			opacity: '1',
+		});
+		// $(imgP).css({
+		// 	display: 'none',
+		// });
+	});
+}
+
+imageHover("#image1", "#img1p");
+imageHover("#image2", "#img2p");
+imageHover("#image3", "#img3p");
+imageHover("#image4", "#img4p");
+imageHover("#image5", "#img5p");
 
 
 

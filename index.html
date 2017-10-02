@@ -29,17 +29,17 @@
 
 	<nav class="container padding5">
 		<ul class="nav nav-pills nav-justified padding-zero">
-		  <li class="nav-item">
-		    <a class="nav-link hover-light" href="#aboutlink">Who I Am</a>
+		  <li class="nav-item" id="navWho">
+		    <a class="nav-link hover-light">Who I Am</a>
 		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link hover-light" href="#portfolio">Portfolio</a>
+		  <li class="nav-item" id="navPortfolio">
+		    <a class="nav-link hover-light">Portfolio</a>
 		  </li>
-		  <li class="nav-item">
-		    <a id="resumeLink" class="nav-link hover-light" href="#resumeContact">Resume</a>
+		  <li class="nav-item" id="navResume">
+		    <a class="nav-link hover-light">Resume</a>
 		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link hover-light" href="#resumeContact">Contact</a>
+		  <li class="nav-item" id="navContact">
+		    <a class="nav-link hover-light">Contact</a>
 		  </li>
 		</ul>
 	</nav>
@@ -71,8 +71,8 @@
 							<div>
 								<a href="https://github.com/fredlintz5" target="_blank">GitHub</a>
 								<a href="https://www.linkedin.com/in/fred-lintz-8a77a5113/" target="_blank">LinkedIn</a>
-								<a href="mailto:fred.lintz5@gmail.com">Email</a>
-								<a href="tel:352-514-1246">352.514.1246</a>
+								<a id="resumeEmail" href="mailto:fred.lintz5@gmail.com">Email</a>
+								<a id="resumePhone" href="tel:352-514-1246">Phone</a>
 							</div>
 							<hr class="mtb-10">
 						</div>	
@@ -220,20 +220,33 @@
  		</div>
     </section>
 
-	<section class="container-fluid height-vh hide" id="portfolio">
+	<section class="container-fluid height-vh hide" id="who">
 		<div class="row">
 			<div class="col-sm-5 row-height" id="image2">
-				<p id="img2p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.</p>
+				<p id="img2p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
+				</p>
 			</div>
 			<div class="col-sm-7 row-height">
 			
 				<div class="row">
-					<div class="col-sm-7 row-heightHalf" id="image3"><p id="img3p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.</p></div>
-					<div class="col-sm-5 row-heightHalf" id="image5"><p id="img5p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.</p></div>
+					<div class="col-sm-7 row-heightHalf" id="image3">
+						<p id="img3p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
+						</p>
+					</div>
+					<div class="col-sm-5 row-heightHalf" id="image5">
+						<p id="img5p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
+						</p>
+					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 row-heightHalf" id="image1"><p id="img1p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.</p></div>
-					<div class="col-sm-8 row-heightHalf" id="image4"><p id="img4p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.</p></div>
+					<div class="col-sm-4 row-heightHalf" id="image1">
+						<p id="img1p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
+						</p>
+					</div>
+					<div class="col-sm-8 row-heightHalf" id="image4">
+						<p id="img4p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
+						</p>
+					</div>
 				</div>
 			
 			</div>
@@ -277,13 +290,6 @@
 				  </a>
 				</div>
 			</div>	
-		</div>
-	</section> -->
-
-	<!-- <section class="container height-vh margin-top" id="resumeContact">
-		<div class="row">
-			<div class="col-sm-6 row-height background-grey" id="resume"></div>
-			<div class="col-sm-6 row-height background-grey" id="contact"></div>
 		</div>
 	</section> -->
 
