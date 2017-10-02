@@ -42,19 +42,20 @@ footer hr {
 }
 
 .jumbotron {
-	background-image: url("../images/cofeve.jpeg");
+	background-image: url("../images/cofeve800.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	height: 91vh;
+	padding-top: 34vh;
 	margin-bottom: 2px;
 	color: #FFF;
-    height: 77vh;
-    padding-top: 25vh;
 }
 
 .jumbotron h1 {
 	text-shadow: 1.2px 1.2px #333;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 .jumbotron p {
@@ -227,23 +228,37 @@ footer hr {
 	text-align: center;
 }
 
+
+@media screen and (min-width: 576px) {
+	.jumbotron h1 {
+		font-size: 60px;
+	}
+}
+
+
+
+
 @media screen and (min-width: 768px) {
 	footer .row div{
 		text-align: left;
 	}
 
 	.jumbotron {
-		height: 92vh;
+		background-image: url("../images/cofeve2100.jpg");
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		margin-bottom: 2px;
+		color: #FFF;
+	    height: 92vh;
 	    padding-top: 35vh;
 	}
 
 	.jumbotron h1 {
-		text-shadow: 1.2px 1.2px #333;
 		font-size: 90px;
 	}
 
 	.jumbotron p {
-		text-shadow: .6px .6px #333;
 		font-size: 25px;
 	}
 
