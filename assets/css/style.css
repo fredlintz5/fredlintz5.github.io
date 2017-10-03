@@ -1,4 +1,3 @@
-/*#EAEFF4*/
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -42,7 +41,7 @@ footer hr {
 }
 
 .jumbotron {
-	background-image: url("../images/cofeve800.png");
+	background-image: url("../images/cofeve600.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -150,7 +149,7 @@ footer hr {
 }
 
 #image1 {
-	background-image: url("../images/profile_pic.jpg");
+	background-image: url("../images/profile_pic800.jpg");
 	background-size: cover;
 	background-position: center;
 	display: none;
@@ -159,7 +158,7 @@ footer hr {
 }
 
 #image2 {
-	background-image: url("../images/dogPark.jpeg");
+	background-image: url("../images/dogPark800.jpg");
 	background-size: cover;
 	background-position: center;
 	opacity: 1.0;
@@ -167,7 +166,7 @@ footer hr {
 }
 
 #image3 {
-	background-image: url("../images/highlineCanal.jpeg");
+	background-image: url("../images/highlineCanal800.jpg");
 	background-size: cover;
 	background-position: center;
 	opacity: 1.0;
@@ -175,7 +174,7 @@ footer hr {
 }
 
 #image4 {
-	background-image: url("../images/cofeve.jpeg");
+	background-image: url("../images/cofeve600.jpg");
 	background-size: cover;
 	background-position: center;
 	display: none;
@@ -184,7 +183,7 @@ footer hr {
 }
 
 #image5 {
-	background-image: url("../images/mountains.jpeg");
+	background-image: url("../images/mountains800.jpg");
 	background-size: cover;
 	background-position: center;
 	opacity: 1.0;
@@ -229,6 +228,11 @@ footer hr {
 }
 
 
+/**************************************
+		  Media Queries 
+**************************************/
+
+
 @media screen and (min-width: 576px) {
 	.jumbotron h1 {
 		font-size: 60px;
@@ -242,12 +246,7 @@ footer hr {
 	}
 
 	.jumbotron {
-		background-image: url("../images/cofeve2100.jpg");
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-		margin-bottom: 2px;
-		color: #FFF;
+		background-image: url("../images/cofeve800.jpg");
 	    height: 92vh;
 	    padding-top: 35vh;
 	}
