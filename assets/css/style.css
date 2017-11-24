@@ -32,6 +32,14 @@ footer hr {
 	margin-bottom: 10px
 }
 
+.noOverflow {
+	overflow: hidden;
+}
+
+.relativeP {
+	position: relative;
+}
+
 .hover-light:hover {
 	color: #333;
 }
@@ -47,17 +55,22 @@ footer hr {
 	background-position: center;
 	background-attachment: fixed;
 	height: 91vh;
-	padding-top: 34vh;
 	margin-bottom: 2px;
+}
+
+.logo {
+	width: 100%;
+	position: absolute;
+	top: 50%;
 	color: #FFF;
 }
 
-.jumbotron h1 {
+.logo h1 {
 	text-shadow: 1.2px 1.2px #333;
 	font-size: 50px;
 }
 
-.jumbotron p {
+.logo p {
 	text-shadow: .6px .6px #333;
 	font-size: 20px;
 }
@@ -66,18 +79,12 @@ footer hr {
 	background: #F7F7F9;
 }
 
+.paddingZero {
+	padding: 0px;
+}
 .padding5 {
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
-
-.height-vh {
-	height: 99vh;
-	padding-top: 1%;
-}
-
-.width-100 {
-	width: 100%;
 }
 
 .border {
@@ -85,11 +92,12 @@ footer hr {
 }
 
 .row-height {
-	height: 48vh;
+	height: 99vh;
+	padding-top: 1%;
 }
 
 .row-heightHalf {
-	height: 24vh;	
+	height: 200px;	
 }
 
 .glyphicon-education {
@@ -122,6 +130,10 @@ footer hr {
 	cursor: pointer;
 }
 
+.whotext {
+	display: none;
+}
+
 #about h3 {
 	color: #009FAD;
 }
@@ -148,50 +160,57 @@ footer hr {
 	margin-top: 5px;
 }
 
-#image1 {
+
+#profilePic {
+	display: none;
 	background-image: url("../images/profile_pic800.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
-	display: none;
-	opacity: 1.0;
-	transition: opacity 1s;
 }
 
-#image2 {
+#dogPark {
 	background-image: url("../images/dogPark800.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 1.0;
-	transition: opacity 1s;
+	background-attachment: fixed;
 }
 
-#image3 {
+#highLine {
+	display: none;
 	background-image: url("../images/highlineCanal800.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 1.0;
-	transition: opacity 1s;
 }
 
-#image4 {
-	background-image: url("../images/cofeve600.jpg");
-	background-size: cover;
-	background-position: center;
+#cofeve {
 	display: none;
-	opacity: 1.0;
-	transition: opacity 1s;
+	background-image: url("../images/cofeve800.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-#image5 {
+#mountains {
+	display: none;
 	background-image: url("../images/mountains800.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 1.0;
-	transition: opacity 1s;
 }
 
-#img1p, #img2p, #img3p, #img4p, #img5p {
-	display: none;
+#portBanner {
+	width: 100%;
+}
+
+#thisIsATest {
+	background-image: url("../images/pattern.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 #projectListOne div, p{
@@ -233,7 +252,7 @@ footer hr {
 **************************************/
 
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 565px) {
 	.jumbotron h1 {
 		font-size: 60px;
 	}
@@ -248,14 +267,17 @@ footer hr {
 	.jumbotron {
 		background-image: url("../images/cofeve800.jpg");
 	    height: 92vh;
-	    padding-top: 35vh;
 	}
 
-	.jumbotron h1 {
+	.logo {
+		top: 40%;
+	}
+
+	.logo h1 {
 		font-size: 90px;
 	}
 
-	.jumbotron p {
+	.logo p {
 		font-size: 25px;
 	}
 
@@ -266,12 +288,20 @@ footer hr {
 
 	.row-height {
 		height: 600px;
+		padding-top: 0px;
 	}	
 
 	.row-heightHalf {
 		height: 300px;	
 	}
 
+	#profilePic, #highLine, #cofeve, #mountains {
+		display: block;
+	}
+
+	#dogPark {
+		background-attachment: scroll;
+	}
 
 	#git {
 		width: 18%;
@@ -285,11 +315,12 @@ footer hr {
 		padding-top: 0px;
 	}
 
-	#image4, #image1 {
+	#cofeve, #profilePic {
 		display: inherit;
 	}
 
 }
+
 
 
 

@@ -1,3 +1,13 @@
+$(window).scroll(() => {
+	
+	let pixFromTop = $(this).scrollTop();	
+
+	$('.logo').css({
+		'transform': `translate(0px, ${pixFromTop/5}%)`
+	});
+
+});
+
 
 var projectListOne = [
 	"<p>Projects</p>",
@@ -36,6 +46,11 @@ $("#navWho").click(function() {
         scrollTop: $("#who").offset().top},'slow');           
 });
 
+$("#navPortfolio").click(function() { 
+	$('html,body').animate({
+        scrollTop: $("#thisIsATest").offset().top},'slow');           
+});
+
 $('#navResume').click(() => {
 	$('#resumeModal').modal('toggle');
 });
@@ -55,34 +70,34 @@ $('#resumeEmail').hover(() => {
 });
 
 
-function imageHover(id, imgP) {
-	$(id).hover(() => {
+// function imageHover(id, imgP) {
+// 	$(id).hover(() => {
 
-		$(id).css({
-			opacity: '0.6',
-		});
-		$(imgP).css({
-			display: 'inherit',
-			color: 'white',
-			opacity: '1',
-			'z-index': '2',
-		});
+// 		$(id).css({
+// 			opacity: '0.6',
+// 		});
+// 		$(imgP).css({
+// 			display: 'inherit',
+// 			color: 'white',
+// 			opacity: '1',
+// 			'z-index': '2',
+// 		});
 
-	}, function() {
-		$(id).css({
-			opacity: '1',
-		});
-		$(imgP).css({
-			display: 'none',
-		});
-	});
-}
+// 	}, function() {
+// 		$(id).css({
+// 			opacity: '1',
+// 		});
+// 		$(imgP).css({
+// 			display: 'none',
+// 		});
+// 	});
+// }
 
-imageHover("#image1", "#img1p");
-imageHover("#image2", "#img2p");
-imageHover("#image3", "#img3p");
-imageHover("#image4", "#img4p");
-imageHover("#image5", "#img5p");
+// imageHover("#image1", "#img1p");
+// imageHover("#image2", "#img2p");
+// imageHover("#image3", "#img3p");
+// imageHover("#image4", "#img4p");
+// imageHover("#image5", "#img5p");
 
 
 
