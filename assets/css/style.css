@@ -207,9 +207,17 @@ a {
 	margin: 0 auto;
 }
 
-.mb40 {
-	margin-bottom: 40px;
+.mt-60 {
+	margin-top: 60px;
 }
+
+.mb-80 {
+	margin-bottom: 80px;
+}
+
+/*.mb40 {
+	margin-bottom: 40px;
+}*/
 
 #portBanner {
 	width: 100%;
