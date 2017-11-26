@@ -3,50 +3,9 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-a {
-	color: #009FAD;
-}
-
-footer {
-	height: auto;
-	padding: 15px 0 15px 0;
-	color: #009FAD;
-	background: #333;
-}
-
-footer a {
-	color: #F7F7F9;
-}
-
-footer a:hover {
-	cursor: pointer;
-	text-decoration: none;
-}
-
-footer a:visited {
-	color: #F7F7F9;
-}
-
-footer hr {
-	margin-top: 0px;;
-	margin-bottom: 10px
-}
-
-.noOverflow {
-	overflow: hidden;
-}
-
-.relativeP {
-	position: relative;
-}
-
-.hover-light:hover {
-	color: #333;
-}
-
-.hiddenP {
-	display: none;
-}
+/****************************************************
+					Jumbotron
+*****************************************************/
 
 .jumbotron {
 	background-image: url("../images/cofeve600.jpg");
@@ -75,29 +34,30 @@ footer hr {
 	font-size: 20px;
 }
 
-.background-grey {
-	background: #F7F7F9;
+/****************************************************
+					NavBar
+*****************************************************/
+
+a {
+	color: #009FAD;
 }
 
-.paddingZero {
-	padding: 0px;
+.hover-light:hover {
+	color: #333;
 }
+
 .padding5 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-.border {
-	border: 1px solid red;
-}
+/****************************************************
+					Resume Modal
+*****************************************************/
 
-.row-height {
-	height: 99vh;
-	padding-top: 1%;
-}
-
-.row-heightHalf {
-	height: 200px;	
+.mtb-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .glyphicon-education {
@@ -112,26 +72,21 @@ footer hr {
 	font-size: 20px;
 }
 
-.mtb-10 {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.glyphicon-envelope {
+	top: 25px;
+	font-size: 55px;
+	color: #888;
 }
 
-.mb-0 {
-	margin-bottom: 0;
-}
-
-.mb-10 {
-	margin-bottom: 10px;
+.glyphicon-phone-alt {
+	top: 25px;
+	font-size: 55px;
+	color: #888;
 }
 
 .toggle {
 	color: #009FAD;
 	cursor: pointer;
-}
-
-.whotext {
-	display: none;
 }
 
 #about h3 {
@@ -160,6 +115,61 @@ footer hr {
 	margin-top: 5px;
 }
 
+/****************************************************
+					Who I AM
+*****************************************************/
+
+.row-height {
+	height: 99vh;
+	padding-top: 1%;
+}
+
+.row-heightHalf {
+	height: 200px;	
+}
+
+.paddingZero {
+	padding: 0px;
+}
+
+.paddingRight {
+	padding: 0px 4px 0px 0px;
+}
+
+.paddingTopRight {
+	padding: 4px 4px 0px 0px;
+}
+
+.paddingTop {
+	padding: 4px 0px 0px 0px;
+}
+
+.relativeP {
+	position: relative;
+}
+
+.noOverflow {
+	overflow: hidden;
+}
+
+.slide_in_Text {
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 40% 4%; 
+	height: 100%;
+	width: 100%;
+    width: 100%;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.slide_in:hover .slide_in_Text {
+	opacity: 1;
+}
+
+#whoMobile {
+	display: none;
+}
 
 #profilePic {
 	display: none;
@@ -201,16 +211,61 @@ footer hr {
 	background-position: center;
 }
 
+/****************************************************
+					PORTFOLIO
+*****************************************************/
+
+.card {
+	margin: 0 auto;
+}
+
+.mb40 {
+	margin-bottom: 40px;
+}
+
 #portBanner {
 	width: 100%;
 }
 
-#thisIsATest {
+#portBackground {
 	background-image: url("../images/grayWood.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+}
+
+#portfolio a {
+	color: #009FAD;
+}
+
+/****************************************************
+					Footer
+*****************************************************/
+
+footer {
+	height: auto;
+	padding: 15px 0 15px 0;
+	color: #009FAD;
+	background: #333;
+}
+
+footer a {
+	color: #F7F7F9;
+}
+
+footer a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #F7F7F9;
+}
+
+footer hr {
+	margin-top: 0px;;
+	margin-bottom: 10px
 }
 
 #projectListOne div, p{
@@ -287,7 +342,7 @@ footer hr {
 	}
 
 	.row-height {
-		height: 600px;
+		height: 604px;
 		padding-top: 0px;
 	}	
 
@@ -295,8 +350,8 @@ footer hr {
 		height: 300px;	
 	}
 
-	#profilePic, #highLine, #cofeve, #mountains {
-		display: block;
+	#whoMobile, #profilePic, #highLine, #cofeve, #mountains {
+		display: inherit;
 	}
 
 	#dogPark {

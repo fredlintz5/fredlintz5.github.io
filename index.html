@@ -19,7 +19,7 @@
 </head>
 <body>
 
-	<div class="jumbotron text-center animate-bottom noOverflow relativeP" id="jumbotron">
+	<div class="jumbotron text-center animate-bottom noOverflow relativeP">
 	  <div class="logo">
 	  	<h1 class="myName">FRED LINTZ</h1>
 	  	<p>Full Stack Web Developer</p>
@@ -43,7 +43,7 @@
 		</ul>
 	</nav>
 
-	<section class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeLabel" aria-hidden="true">
+	<section class="modal fade" id="resumeModal" tabindex="-1" role="dialog">
       	<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -224,38 +224,48 @@
 
 	<section class="container-fluid" id="who">
 		<div class="row">
-			<div class="col-sm-5 paddingZero row-height noOverflow">
-				<div class="relativeP row-height" id="dogPark">
-					<p class="whotext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
-					</p>
+			<div class="col-sm-5 relativeP row-height noOverflow paddingRight">
+				<div class="relativeP row-height slide_in" id="dogPark">
+					<div class="slide_in_Text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-sm-7 row-height">
+			<div class="col-sm-7 row-height" id="whoMobile">
 				<div class="row">
-					<div class="col-sm-7 paddingZero noOverflow">
-						<div class="relativeP row-heightHalf" id="highLine">
-							<p class="whotext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
-							</p>
+					<div class="col-sm-7 paddingRight noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="highLine">
+							<div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div>
 						</div>
 					</div>
 					<div class="col-sm-5 paddingZero noOverflow">
-						<div class="relativeP row-heightHalf" id="mountains">
-							<p class="whotext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
-							</p>
+						<div class="relativeP row-heightHalf slide_in" id="mountains">
+							<!-- <div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div> -->
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 paddingZero noOverflow">
-						<div class="relativeP row-heightHalf" id="profilePic">
-							<p class="whotext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
-							</p>
+					<div class="col-sm-4 paddingTopRight noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="profilePic">
+							<!-- <div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div> -->
 						</div>
 					</div>
-					<div class="col-sm-8 paddingZero noOverflow">
-						<div class="relativeP row-heightHalf" id="cofeve">
-							<p class="whotext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, amet, cum. Cumque eligendi optio qui voluptatum deleniti adipisci sint aperiam reprehenderit id quo accusamus magnam fugiat, laudantium at ducimus incidunt.
-							</p>
+					<div class="col-sm-8 paddingTop noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="cofeve">
+							<div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -264,51 +274,43 @@
 		</div>
 	</section>
 
-	<section class="container">
-		<div class="row text-center" id="thisIsATest">
+	<section class="container" id="portfolio">
+		<div class="row" id="portBackground">
 			<img id="portBanner" src="assets/images/portfolioHeader.png">
 		</div>
-	</section>
-
-	<!-- <section class="container-fluid margin-top" id="portfolio">
 		<div class="row">
-			<div class="col-sm-12 row-height">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  </ol>
-
-				  <div class="carousel-inner" role="listbox">
-				    <div class="item active">
-						<iframe src="https://fredlintz5.github.io/week-4-game/" width="100%" height="600" frameborder="0"></iframe>				    
-						<div class="carousel-caption">			
-				      </div>
-				    </div>
-				    <div class="item">
-				      <iframe src="https://fredlintz5.github.io/rochambeau/" width="100%" height="600" frameborder="0"></iframe>
-				      <div class="carousel-caption"></div>
-				    </div>
-				    <div class="item">
-				      <iframe src="https://fredlintz5.github.io/hangman-game/" width="100%" height="600" frameborder="0"></iframe>
-				      <div class="carousel-caption"></div>
-				    </div>
-				  </div>
-
-			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
+			<div class="col-sm-4">
+				<div class="card mb40" style="width: 90%;">
+					<img class="card-img-top" src="assets/images/webScraperScreenShot.png" width="100%">
+					<div class="card-body">
+						<br>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat distinctio itaque saepe rerum quasi adipisci quod ipsum recusandae nostrum fugit, atque esse ratione vel amet voluptate, repudiandae culpa qui vero.</p>
+						<a href="https://webscraper-bikeshop.herokuapp.com/" target="_blank" class="btn btn-default btn-block">WebScraper</a>
+					</div>
 				</div>
-			</div>	
+			</div>
+			<div class="col-sm-4">
+				<div class="card mb40" style="width: 90%;">
+					<img class="card-img-top" src="assets/images/hailMinderScreenShot.png" width="100%">
+					<div class="card-body">
+						<br>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat distinctio itaque saepe rerum quasi adipisci quod ipsum recusandae nostrum fugit, atque esse ratione vel amet voluptate, repudiandae culpa qui vero.</p>
+						<a href="https://fredlintz5.github.io/hailMinder/" target="_blank" class="btn btn-default btn-block">hailMinder</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card mb40" style="width: 90%;">
+					<img class="card-img-top text-center" src="assets/images/snapBizScreenShot.png" width="100%">
+					<div class="card-body">
+						<br>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat distinctio itaque saepe rerum quasi adipisci quod ipsum recusandae nostrum fugit, atque esse ratione vel amet voluptate, repudiandae culpa qui vero.</p>
+						<a href="https://snap-biz.herokuapp.com/" target="_blank" class="btn btn-default btn-block">SnapBiz</a>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section> -->
+	</section>
 
 	<footer class="container-fluid text-center" id="footer">
 		<div class="row">
@@ -316,8 +318,10 @@
 				<p>Social</p>
 				<hr>
 				<div>
-					<a href="https://github.com/fredlintz5" target="_blank"><img id="git" src="assets/images/github.png" alt="github" width="18%"></a>
-					<a href="https://www.linkedin.com/in/fred-lintz-8a77a5113/" target="_blank"><img id="link" src="assets/images/linkedin.png" alt="linked-in" width="20%"></a>
+					<a id="resumeEmail" href="mailto:fred.lintz5@gmail.com"><span class="align-middle glyphicon glyphicon-envelope"></span></a>
+					<a id="resumePhone" href="tel:352-514-1246"><span class="glyphicon glyphicon-phone-alt"></span></a>
+					<a href="https://github.com/fredlintz5" target="_blank"><img id="git" src="assets/images/github.png" alt="github" width="10%"></a>
+					<a href="https://www.linkedin.com/in/fred-lintz-8a77a5113/" target="_blank"><img id="link" src="assets/images/linkedin.png" alt="linked-in" width="12%"></a>
 				</div>	
 			</div>
 			<div class="col-sm-4" id="projectListOne"></div>
