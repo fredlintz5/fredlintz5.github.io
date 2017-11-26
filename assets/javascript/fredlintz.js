@@ -41,19 +41,19 @@ projectListTwo.forEach((element) => {
 
 $("#navWho").click(function() { 
 	$('html,body').animate({
-        scrollTop: $("#who").offset().top},900);           
+        scrollTop: $("#who").offset().top},800);           
 });
 
 
 $("#navPortfolio").click(function() { 
 	$('html,body').animate({
-        scrollTop: $("#portfolio").offset().top},1200);           
+        scrollTop: $("#portfolio").offset().top},1000);           
 });
 
 
 $("#navContact").click(function() { 
 	$('html,body').animate({
-        scrollTop: $("#footer").offset().top},1200);           
+        scrollTop: $("#footer").offset().top},1100);           
 });
 
 

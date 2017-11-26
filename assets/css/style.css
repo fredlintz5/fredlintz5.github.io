@@ -72,18 +72,6 @@ a {
 	font-size: 20px;
 }
 
-.glyphicon-envelope {
-	top: 25px;
-	font-size: 55px;
-	color: #888;
-}
-
-.glyphicon-phone-alt {
-	top: 25px;
-	font-size: 55px;
-	color: #888;
-}
-
 .toggle {
 	color: #009FAD;
 	cursor: pointer;
@@ -268,6 +256,19 @@ footer hr {
 	margin-bottom: 10px
 }
 
+.glyphicon-envelope {
+	font-size: 58px;
+	color: #C9CACC;
+	padding-right: 7px;
+}
+
+.glyphicon-phone-alt {
+	top: -4px;
+	font-size: 53px;
+	color: #C9CACC;
+	padding-right: 7px;
+}
+
 #projectListOne div, p{
 	padding-left: 5px;
 }
@@ -281,17 +282,21 @@ footer hr {
 }
 
 #git {
-	width: 10%;
+	position: relative;
+	top: -25px;
+	width: 60px;
+	padding-right: 7px;
 }
 
 #link {
-	width: 11%;
+	position: relative;
+	top: -25px;
+	width: 59px;
 }
 
-#social div {
-	padding-top: 5px;
+#socialLinks {
     padding-left: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 #copyright {
@@ -350,6 +355,14 @@ footer hr {
 		height: 300px;	
 	}
 
+	.glyphicon-envelope {
+		font-size: 46px;
+	}
+
+	.glyphicon-phone-alt {
+		font-size: 45px;
+	}
+
 	#whoMobile, #profilePic, #highLine, #cofeve, #mountains {
 		display: inherit;
 	}
@@ -359,11 +372,14 @@ footer hr {
 	}
 
 	#git {
-		width: 18%;
+		width: 50px;
+		top: -21px;
+		padding-right: 5px;
 	}
 
 	#link {
-		width: 19%;
+		width: 50px;
+		top: -21px;
 	}
 
 	#projectListTwo {
