@@ -2,7 +2,7 @@
 > Personal Web Site, displaying contact info, resume, and previous projects/portfolio.
 
 
-![](assets/images/screenshot.png)
+![](assets/images/readMeScreenShot.png)
 
 
 <!-- ## Usage example
